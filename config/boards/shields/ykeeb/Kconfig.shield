@@ -1,0 +1,5 @@
+config SHIELD_YKEEB_LEFT
+    def_bool $(shields_list_contains,ykeeb_left)
+
+config SHIELD_YKEEB_RIGHT
+    def_bool $(shields_list_contains,ykeeb_right)

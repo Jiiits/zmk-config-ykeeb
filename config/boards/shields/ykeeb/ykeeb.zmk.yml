@@ -1,0 +1,8 @@
+file_format: "1"
+id: ykeeb
+name: ykeeb
+type: shield
+requires: [seeeduino_xiao_ble]
+siblings:
+  - ykeeb_left
+  - ykeeb_right
