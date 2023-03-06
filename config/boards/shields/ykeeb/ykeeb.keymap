@@ -132,5 +132,6 @@
     &trans       &trans       &trans        &trans            &trans                                      &none        &none     &none       &none   &none
                                             &trans            &trans        &trans         &none         &none       &none
             >;
+        };
     };
 };
