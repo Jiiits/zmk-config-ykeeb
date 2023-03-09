@@ -73,7 +73,7 @@
 
             bindings = <
     &none       &none       &none        &none            &none                                      &none             &none       &none         &none         &none
-    &none       &none       &none        &none            &none                                      &kp CAPSLOCK             &kp C_NEXT      &kp C_VOLUME_DOWN    &kp C_VOLUME_up      &kp C_PREVIOUS
+    &none       &none       &none        &none            &none                                      &kp CAPSLOCK             &kp C_NEXT      &kp C_VOLUME_DOWN    &kp C_VOLUME_UP      &kp C_PREVIOUS
     &none       &none       &none        &none            &none                                      &kp INSERT        &kp HOME     &kp PAGE_DOWN       &kp PAGE_UP   &kp END
                                          &none            &none        &none         &kp C_STOP      &kp C_PLAY_PAUSE       &kp C_MUTE
             >;
