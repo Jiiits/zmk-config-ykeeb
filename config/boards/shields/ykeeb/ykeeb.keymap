@@ -84,7 +84,7 @@
 
             bindings = <
     &none      &none    &none     &none    &none                                      &kp RC(Y)            &kp RC(V)       &kp RC(C)        &kp RC(V)         &kp RC(Z)
-    &none      &none    &none     &none    &none                                      &kp CAPS           &kp LEFT_ARROW       &kp DOWN_ARROW        &UP_ARROW          &RIGHT_ARROW 
+    &none      &none    &none     &none    &none                                      &kp CAPS           &kp LEFT_ARROW       &kp DOWN_ARROW        &kp UP_ARROW          &kp RIGHT_ARROW 
     &none      &none    &none     &none    &none                                      &kp INSERT        &kp HOME       &kp PAGE_DOWN         &kp PAGE_UP        &kp END
                                   &none    &none     &none              &kp RET         &kp BSPC       &kp DEL
             >;
