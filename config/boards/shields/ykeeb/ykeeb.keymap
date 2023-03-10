@@ -4,12 +4,12 @@
 #include <dt-bindings/zmk/mouse.h>
 
 #define DEFAULT 0
-#define NAV     1
-#define SYM     2
-#define FUN     3
-#define MEDIA   4
-#define MOUSE   5
-#define NUM     6
+#define MEDIA   1
+#define NAV     2
+#define MOUSE   3
+#define SYM     4
+#define NUM     5
+#define FUN     6
 
 &mmv {
     time-to-max-speed-ms = <100>;
