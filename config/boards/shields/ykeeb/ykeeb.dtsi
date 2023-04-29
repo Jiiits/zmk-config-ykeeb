@@ -9,9 +9,9 @@
         compatible = "zmk,battery-nrf-vddh";
         label = "VBATT";
     };
-}
 
-/ {
+
+
     chosen {
         zmk,kscan = &kscan0;
         zmk,matrix_transform = &default_transform;
