@@ -1,5 +1,15 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 
+/ {
+    chosen {
+      zmk,battery = &vbatt;
+    };
+
+    vbatt: vbatt {
+        compatible = "zmk,battery-nrf-vddh";
+        label = "VBATT";
+    };
+}
 
 / {
     chosen {
