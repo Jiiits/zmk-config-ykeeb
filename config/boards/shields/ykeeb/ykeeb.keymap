@@ -52,6 +52,62 @@
         };
     };
 
+    
+    combos {
+        compatible = "zmk,combos";
+        combo_BT0 {
+            timeout-ms = <100>;
+            key-positions = <0 9 31>;
+            bindings = <&bt BT_SEL 0>;
+            };
+        combo_BT1 {
+            timeout-ms = <100>;
+            key-positions = <0 9 32>;
+            bindings = <&bt BT_SEL 1>;
+            };
+        combo_BT3 {
+            timeout-ms = <100>;
+            key-positions = <0 9 33>;
+            bindings = <&bt BT_SEL 2>;
+            };
+        combo_BT_NXT {
+            timeout-ms = <100>;
+            key-positions = <0 9 13>;
+            bindings = <&bt BT_NXT>;
+            };
+        combo_BT_PRV {
+            timeout-ms = <100>;
+            key-positions = <0 9 11>;
+            bindings = <&bt BT_PRV>;
+            };
+        combo_BT_CLR {
+            timeout-ms = <100>;
+            key-positions = <0 9 12>;
+            bindings = <&bt BT_CLR>;
+            };
+        combo_reset_L {
+            timeout-ms = <100>;
+            key-positions = <0 9 10>;
+            bindings = <&sys_reset>;
+            };
+        combo_BOOT_L {
+            timeout-ms = <100>;
+            key-positions = <0 9 20>;
+            bindings = <&bootloader;
+            };
+        combo_reset_R {
+            timeout-ms = <100>;
+            key-positions = <0 9 19>;
+            bindings = <&sys_reset>;
+            };
+        combo_BOOT_R {
+            timeout-ms = <100>;
+            key-positions = <0 9 29>;
+            bindings = <&bootloader;
+            };
+        };
+    
+
 
     keymap {
         compatible = "zmk,keymap";
