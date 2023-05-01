@@ -85,20 +85,10 @@
             key-positions = <0 9 12>;
             bindings = <&bt BT_CLR>;
             };
-        combo_reset_L {
-            timeout-ms = <100>;
-            key-positions = <0 9 10>;
-            bindings = <&sys_reset>;
-            };
         combo_BOOT_L {
             timeout-ms = <100>;
             key-positions = <0 9 20>;
             bindings = <&bootloader>;
-            };
-        combo_reset_R {
-            timeout-ms = <100>;
-            key-positions = <0 9 19>;
-            bindings = <&sys_reset>;
             };
         combo_BOOT_R {
             timeout-ms = <100>;
