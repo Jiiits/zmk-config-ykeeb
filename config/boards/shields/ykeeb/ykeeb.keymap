@@ -93,7 +93,7 @@
         combo_BOOT_L {
             timeout-ms = <100>;
             key-positions = <0 9 20>;
-            bindings = <&bootloader;
+            bindings = <&bootloader>;
             };
         combo_reset_R {
             timeout-ms = <100>;
@@ -103,7 +103,7 @@
         combo_BOOT_R {
             timeout-ms = <100>;
             key-positions = <0 9 29>;
-            bindings = <&bootloader;
+            bindings = <&bootloader>;
             };
         };
     
