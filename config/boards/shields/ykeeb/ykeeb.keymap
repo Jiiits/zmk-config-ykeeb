@@ -55,42 +55,42 @@
     
     combos {
         compatible = "zmk,combos";
-        combo_BT0 {
+        combo_bt0 {
             timeout-ms = <100>;
             key-positions = <0 9 21>;
             bindings = <&bt BT_SEL 0>;
             };
-        combo_BT1 {
+        combo_bt1 {
             timeout-ms = <100>;
             key-positions = <0 9 22>;
             bindings = <&bt BT_SEL 1>;
             };
-        combo_BT3 {
+        combo_bt3 {
             timeout-ms = <100>;
             key-positions = <0 9 23>;
             bindings = <&bt BT_SEL 2>;
             };
-        combo_BT_NXT {
+        combo_btnxt {
             timeout-ms = <100>;
             key-positions = <0 9 13>;
             bindings = <&bt BT_NXT>;
             };
-        combo_BT_PRV {
+        combo_btprv {
             timeout-ms = <100>;
             key-positions = <0 9 11>;
             bindings = <&bt BT_PRV>;
             };
-        combo_BT_CLR {
+        combo_btclr {
             timeout-ms = <100>;
             key-positions = <0 9 12>;
             bindings = <&bt BT_CLR>;
             };
-        combo_BOOT_L {
+        combo_bootl {
             timeout-ms = <50>;
             key-positions = <0 20 32>;
             bindings = <&bootloader>;
             };
-        combo_BOOT_R {
+        combo_bootr {
             timeout-ms = <50>;
             key-positions = <9 29 33>;
             bindings = <&bootloader>;
