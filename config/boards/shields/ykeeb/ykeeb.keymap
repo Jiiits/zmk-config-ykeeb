@@ -55,6 +55,11 @@
     
     combos {
         compatible = "zmk,combos";
+        combo_test{
+            timeout-ms = <100>;
+            key-positions = <0 9>;
+            bindings = <&kp F>;
+            };
         combo_BT0 {
             timeout-ms = <100>;
             key-positions = <0 9 31>;
