@@ -55,24 +55,19 @@
     
     combos {
         compatible = "zmk,combos";
-        combo_test{
-            timeout-ms = <100>;
-            key-positions = <0 9>;
-            bindings = <&kp F>;
-            };
         combo_BT0 {
             timeout-ms = <100>;
-            key-positions = <0 9 31>;
+            key-positions = <0 9 21>;
             bindings = <&bt BT_SEL 0>;
             };
         combo_BT1 {
             timeout-ms = <100>;
-            key-positions = <0 9 32>;
+            key-positions = <0 9 22>;
             bindings = <&bt BT_SEL 1>;
             };
         combo_BT3 {
             timeout-ms = <100>;
-            key-positions = <0 9 33>;
+            key-positions = <0 9 23>;
             bindings = <&bt BT_SEL 2>;
             };
         combo_BT_NXT {
@@ -91,13 +86,13 @@
             bindings = <&bt BT_CLR>;
             };
         combo_BOOT_L {
-            timeout-ms = <100>;
-            key-positions = <0 9 20>;
+            timeout-ms = <50>;
+            key-positions = <0 20 32>;
             bindings = <&bootloader>;
             };
         combo_BOOT_R {
-            timeout-ms = <100>;
-            key-positions = <0 9 29>;
+            timeout-ms = <50>;
+            key-positions = <9 29 33>;
             bindings = <&bootloader>;
             };
         };
