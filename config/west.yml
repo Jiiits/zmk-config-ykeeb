@@ -4,11 +4,11 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: krikun98
       url-base: https://github.com/krikun98
-    - name: mouse-3.2
-      url-base: https://github.com/urob/zmk/tree/mouse-3.2
+    - name: urob
+      url-base: https://github.com/urob
   projects:
     - name: zmk
-      remote: mouse-3.2
+      remote: urob
       revision: mouse-3.2
       import: app/west.yml
   self:
