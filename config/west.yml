@@ -8,8 +8,8 @@ manifest:
       url-base: https://github.com/urob/zmk/tree/mouse-3.2
   projects:
     - name: zmk
-      remote: ftc
-      revision: mouse-ftc
+      remote: 3.2
+      revision: mouse-3.2
       import: app/west.yml
   self:
     path: config
