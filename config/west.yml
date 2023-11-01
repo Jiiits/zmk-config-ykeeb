@@ -4,8 +4,8 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: krikun98
       url-base: https://github.com/krikun98
-    - name: ftc
-      url-base: https://github.com/ftc
+    - name: mouse-3.2
+      url-base: https://github.com/urob/zmk/tree/mouse-3.2
   projects:
     - name: zmk
       remote: ftc
