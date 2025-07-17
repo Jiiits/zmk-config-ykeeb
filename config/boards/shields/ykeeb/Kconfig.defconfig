@@ -1,19 +1,16 @@
-CONFIG_BT_GATT_ENFORCE_SUBSCRIPTION=n
-CONFIG_ZMK_SLEEP=y
-
 if SHIELD_YKEEB_LEFT
 
-config ZMK_KEYBOARD_NAME
-    default "Ykeeb"
+    config ZMK_KEYBOARD_NAME
+        default "WhyBoard"
 
-config ZMK_SPLIT_ROLE_CENTRAL
-    default y
-
-CONFIG_ZMK_MOUSE=y
+    config ZMK_SPLIT_ROLE_CENTRAL
+        default y
 
 endif
 
 if SHIELD_YKEEB_LEFT || SHIELD_YKEEB_RIGHT
-config ZMK_SPLIT
-    default y
+
+    config ZMK_SPLIT
+        default y
+
 endif
