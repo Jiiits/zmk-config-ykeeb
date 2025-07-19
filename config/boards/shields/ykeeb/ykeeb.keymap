@@ -44,7 +44,7 @@
         combo_btlayer {
             timeout-ms = <100>;
             key-positions = <0 9>;
-            bindings = <&to 7>;
+            bindings = <&to 6>;
             };
         };
     
